@@ -1,4 +1,8 @@
-The problem is a classic example of Traveling Salesman Problem where we have to cover each node at least once while forming a closed path. Hence, this is a case of Hamiltonian circuit. To exactly solve this problem, where for part A we do not require any sub tours to be considered, since a single vehicle has sufficient capacity, we use the traditional algorithm of solving the path from the state tree, using a bottoms up approach with the concepts of dynamic programming. This is the perfect method for such a case because, we have enough sub problems that when solved can be used to store and work our way backwards from the depot (i.e. backtracking is done here)
+The problem is a classic example of Traveling Salesman Problem where we have to cover each node at least once while forming a closed path. Hence, this is a case of 
+Hamiltonian circuit. To exactly solve this problem, where for part A we do not require any sub tours to be considered, since a single vehicle has sufficient capacity,
+we use the traditional algorithm of solving the path from the state tree, using a bottoms up approach with the concepts of dynamic programming. This is the perfect 
+method for such a case because, we have enough sub problems that when solved can be used to store and work our way backwards from the depot (i.e. backtracking is done 
+here)
 
 Algorithm Time Complexity: O(n^2*2^n)
 Algorithm Space Complexity: O(n*2^n)
