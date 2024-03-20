@@ -1,0 +1,5 @@
+python code/part_a/part_a.py input_datasets/part_a/part_a_input_dataset_1.csv
+python code/part_a/part_a.py input_datasets/part_a/part_a_input_dataset_2.csv
+python code/part_a/part_a.py input_datasets/part_a/part_a_input_dataset_3.csv
+python code/part_a/part_a.py input_datasets/part_a/part_a_input_dataset_4.csv
+python code/part_a/part_a.py input_datasets/part_a/part_a_input_dataset_5.csv
