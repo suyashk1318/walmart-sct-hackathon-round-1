@@ -1,1 +1,6 @@
+The second part is a classic example of TSP with multiple traveling salesmen, in this case, they are vehicles. By allowing sub tours and allowing multiple TSPs to 
+take place, we are able to solve the problem. Here the number of vehicles are 2, and hence the problem gets reduced to two TSPs where again the concept of dynamic 
+programming is used to solve the problem.
 
+Time Complexity: O(2*n^2*2^n)
+Space Complexity: 0(2*n*2^n)
