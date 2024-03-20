@@ -104,6 +104,6 @@ def main(input_file, output_file):
 
 # Example usage
 if __name__ == "__main__":
-    input_file = "D:\Walmart\part_a_input_dataset_2.csv"  # Change to your input filename
-    output_file = "D:\Walmart\part_a_output_dataset_2.csv"  # Change to your output filename
+    input_file = "D:\Walmart\part_a_input_dataset_2.csv"  
+    output_file = "D:\Walmart\part_a_output_dataset_2.csv"  
     main(input_file, output_file)
